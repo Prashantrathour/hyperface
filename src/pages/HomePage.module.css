@@ -1,0 +1,61 @@
+
+*{
+    /* color: white; */
+    padding: 0;
+    margin: 0;
+}
+div{
+    color: white;
+}
+.main{
+    padding: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    transform: translateX(0);
+ 
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    
+    color: rgb(218, 177, 15);
+}
+.niceday{
+    float: left;
+    font-size: 14px;
+    color: #FFFFFF;
+    color: rgb(247, 246, 246,.5);
+}
+.joinandhelp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+.jointext{
+    background-color: 'rgba(255, 255, 255, 0.5)';
+    color: rgb(247, 246, 246,.5);
+    font-size: 12px;
+
+}
+.combtn{
+    display: flex;
+    gap: 4px;
+    background-color: #23AB5C;
+    color: white;
+    padding: 8px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    border-radius: 3px;
+    border: none;
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.randerview{
+    transform: translateX(14px);
+}

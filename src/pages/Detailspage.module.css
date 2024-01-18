@@ -1,0 +1,118 @@
+/* Detailspage.module.css */
+
+.navbar {
+    display: flex;
+    padding: 5% 6%;
+    justify-content: space-between;
+    background-color: #191B20;
+  }
+  
+  .mainsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 10% 0 10%;
+   
+   
+}
+
+.imagediv {
+   
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    
+  }
+  .imagediv img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .btndiv {
+    display: flex;
+    width: 20%;
+  
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+  
+   
+    gap: 10px;
+  }
+  
+  .btndiv button {
+    width: 100%;
+  
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  @media (max-width: 767px) {
+    .mainsection {
+      flex-direction: column; 
+    }
+  
+    .imagediv {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+  
+    .imagediv img {
+      width: 60%; 
+    }
+  
+    .btndiv {
+      width: 75%;
+      text-align: center; 
+      padding:5% 10% 5% 10%;
+    }
+  }
+  .imagediv p{
+    font-size: 16px;
+  }
+  .imagediv h6{
+    font-size: 18px;
+    padding: 1rem;
+  }
+  .imagediv img {
+    width: 100%;
+    
+    /* margin-right: 20px; */
+  }
+  
+  .imagediv div {
+    color: white;
+  }
+
+@media (max-width: 767px) {
+    .bottom {
+        padding:23%; 
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    justify-content: center;
+        align-items: end;
+    }
+  }
+  @media (min-width: 767px) {
+    .bottom {
+     
+       display: flex;
+       flex-direction: row;
+       gap: 10px;
+       justify-content: center;
+       align-items: end;
+       padding: 10px;
+    }
+  }
+ 
+  
+ 
+
+
+
+  
