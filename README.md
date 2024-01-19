@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a feature-rich landing page UI with sliders for courses and articles. It provides a seamless user experience with the ability to navigate between courses and articles. Additionally, the project includes an audio player page where users can play, pause, and navigate through audio content.
+This project about ui implementation when we click on any div image move to another page  audio player page where users can play, pause, and navigate through audio content.
 
 ## Features
 
